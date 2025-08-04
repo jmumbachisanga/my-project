@@ -1,2 +1,2 @@
 # my-project
-my project training
+my training project description
