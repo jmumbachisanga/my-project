@@ -1,1 +1,1 @@
-# my project training description
+# my training project details
