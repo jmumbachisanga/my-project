@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="JOSENGA One-Company OS — AI-powered sales, clients, jobs, invoices, cash control and business intelligence.">
+  <title>JOSENGA One-Company OS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">J</span><div><strong>JOSENGA</strong><small>ONE-COMPANY OS</small></div></div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <button class="nav active" data-view="dashboard">⌂ <span>Command Center</span></button>
+      <button class="nav" data-view="leads">◎ <span>Leads & Sales</span></button>
+      <button class="nav" data-view="clients">♙ <span>Clients</span></button>
+      <button class="nav" data-view="jobs">▣ <span>Jobs</span></button>
+      <button class="nav" data-view="finance">₭ <span>Invoices & Cash</span></button>
+      <button class="nav" data-view="marketing">✦ <span>Marketing</span></button>
+      <button class="nav" data-view="ai">AI <span>Business Advisor</span></button>
+      <button class="nav" data-view="settings">⚙ <span>Settings</span></button>
+    </nav>
+    <div class="sidebar-foot">JOSENGA AI<br><small>COMMAND → PLAN → ROUTE → EXECUTE → VERIFY → DELIVER</small></div>
+  </aside>
+  <main class="main" id="app"></main>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
